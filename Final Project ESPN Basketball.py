@@ -26,6 +26,12 @@ def has_classid(tag):
 
 results = soup.find_all(class_='td__Tableid')
 
+User=("")
+print("What team are you choosing?")
+
+    
+    
+
 for element in results:
     teams=(element['title'])
     teams=['Golden State Warriors', 'Brooklyn Nets', 'Boston Celtics', 'Miami Heat','Milwaukee Bucks', 'Memphis Grizzlies', 'Minnesota Timberwovles', 'Philadelphia 76ers']
