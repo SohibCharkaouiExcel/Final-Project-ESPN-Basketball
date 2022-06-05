@@ -27,7 +27,9 @@ def has_classid(tag):
 results = soup.find_all(class_='td__Tableid')
 
 for element in results:
-    print(element['title'])
+    teams=(element['title'])
+    teams=['Golden State Warriors', 'Brooklyn Nets', 'Boston Celtics','Utah Jazz', 'Miami Heat','Milwaukee Bucks', 'Memphis Grizzlies', 'Minnesota Timberwovles', 'Philadelphia 76ers']
+teams.remove('Golden State Warriors') 
     
 
 
@@ -41,5 +43,3 @@ for element in results:
 
 
 
-
-i love boston worker
