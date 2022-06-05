@@ -28,9 +28,15 @@ results = soup.find_all(class_='td__Tableid')
 
 for element in results:
     teams=(element['title'])
-    teams=['Golden State Warriors', 'Brooklyn Nets', 'Boston Celtics','Utah Jazz', 'Miami Heat','Milwaukee Bucks', 'Memphis Grizzlies', 'Minnesota Timberwovles', 'Philadelphia 76ers']
+    teams=['Golden State Warriors', 'Brooklyn Nets', 'Boston Celtics', 'Miami Heat','Milwaukee Bucks', 'Memphis Grizzlies', 'Minnesota Timberwovles', 'Philadelphia 76ers']
 teams.remove('Golden State Warriors') 
-    
+teams.remove('Brooklyn Nets')
+teams.remove('Boston Celtics')
+teams.remove('Miami Heat')
+teams.remove('Milwaukee Bucks') 
+teams.remove('Memphis Grizzlies')
+teams.remove('Minnesota Timberwovles')
+teams.remove('Philadelphia 76ers')
 
 
     
